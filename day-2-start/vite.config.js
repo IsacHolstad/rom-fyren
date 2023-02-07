@@ -4,7 +4,9 @@ export default {
     build: {
         rollupOptions: {
             input: {
-                home: resolve(__dirname, './src/index.html')
+                home: resolve(__dirname, './src/index.html'),
+                signup: resolve(__dirname, './src/signup.html')
+
             }
         },
     },
